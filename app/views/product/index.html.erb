@@ -1,0 +1,4 @@
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:item, "Search for:") %>
+  <%= text_field_tag(:item) %>
+  <%= submit_tag("Add To Cart") %>
